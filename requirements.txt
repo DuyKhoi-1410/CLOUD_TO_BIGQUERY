@@ -1,0 +1,15 @@
+# Các thư viện NLP cốt lõi
+apache-beam==2.59.0
+emoji==2.12.1
+flashtext==2.7
+transformers==4.44.2
+torch==2.4.1
+sentencepiece==0.2.0
+
+# Google Cloud
+google-cloud-storage==2.18.2
+google-cloud-bigquery==3.25.0
+
+# Web server
+flask==3.0.3
+gunicorn==22.0.0

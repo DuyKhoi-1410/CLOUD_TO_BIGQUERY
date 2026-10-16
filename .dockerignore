@@ -1,0 +1,36 @@
+# Không copy vào Docker image
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+.env
+
+.vscode/
+.idea/
+
+*.ipynb
+.ipynb_checkpoints/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+.DS_Store
+Thumbs.db
+
+# Output files
+*.jsonl
+
+# Service account keys
+*.json
+!requirements*.json
+
+# Git
+.git/
+.gitignore
+
+# Docs
+README.md

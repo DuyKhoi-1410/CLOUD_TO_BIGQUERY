@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter / Colab
+*.ipynb
+.ipynb_checkpoints/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (không commit kết quả pipeline)
+*.jsonl
+/tmp/
+
+# Service account keys – TUYỆT ĐỐI không commit lên GitHub
+*.json
+!requirements*.json
+
+# Docker
+.dockerignore
